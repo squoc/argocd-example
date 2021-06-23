@@ -5,7 +5,7 @@ metadata:
     app: httpd
     tag: alpine
   name: httpd
-  namespace: demo
+  namespace: default
 spec:
   replicas: 3
   selector:
